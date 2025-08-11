@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dell Inventory Management</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Dell Product Inventory</h1>
+    </header>
+
+    <main>
+        <section class="controls">
+            <div class="input-group">
+                <input type="text" id="productName" placeholder="Enter product name...">
+                <button id="addProductBtn">Add Product</button>
+            </div>
+            <span id="addProductMessage" class="message"></span>
+        </section>
+
+        <section class="inventory-display">
+            <h2>Current Inventory</h2>
+            <ul id="productList"></ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Dell E-commerce</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

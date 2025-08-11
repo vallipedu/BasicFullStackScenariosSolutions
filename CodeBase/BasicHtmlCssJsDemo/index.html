@@ -1,0 +1,70 @@
+<!--
+    ******************************************************************
+    * Number Operations    *
+    * 
+    *     Author: Hari Shankar                                       *
+    *     Version: 1.0                                               *
+    *     Created: 4 AUG 2025                                        *
+    *     Last Updated: 11 AUG 2025                                  *
+    *     Description: This page allows users to perform various     *
+    *     number-based operations, including calculating the sum of  *
+    *     numbers in an array, summing odd and even numbers          *
+    *     separately, and generating a Fibonacci series.             *
+    * *
+    ******************************************************************
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Operations</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Number Operations</h1>
+    </header>
+
+    <main>
+        <section class="calculation-section">
+            <h2>Array Sum</h2>
+            <div class="input-group">
+                <input type="text" id="arraySumInput" placeholder="Enter numbers (e.g., 1,2,3)">
+                <button onclick="calculateAndDisplaySum()">Calculate Sum</button>
+            </div>
+            <div class="result-display" id="arraySumResult"></div>
+        </section>
+
+        <hr>
+
+        <section class="calculation-section">
+            <h2>Odd & Even Sums</h2>
+            <div class="input-group">
+                <input type="text" id="oddEvenInput" placeholder="Enter numbers (e.g., 1,2,3,4)">
+                <button onclick="calculateAndDisplayOddEven()">Calculate Odd/Even</button>
+            </div>
+            <div class="result-display" id="oddEvenResult"></div>
+        </section>
+
+        <hr>
+
+        <section class="calculation-section">
+            <h2>Fibonacci Series</h2>
+            <div class="input-group">
+                <input type="number" id="fibonacciLimit" placeholder="Enter limit (e.g., 10)">
+                <button onclick="calculateAndDisplayFibonacci()">Generate Series</button>
+            </div>
+            <div class="result-display" id="fibonacciResult"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Number Operations App</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

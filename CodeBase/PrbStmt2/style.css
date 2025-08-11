@@ -1,1 +1,147 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+}
 
+header {
+    background-color: #0076a3;
+    color: white;
+    width: 100%;
+    padding: 5px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    line-height: 1;
+}
+
+header h1 {
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+main {
+    width: 90%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 15px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    flex-grow: 1;
+}
+
+.controls {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+input[type="text"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    flex-grow: 1;
+}
+
+button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    background-color: #0076a3;
+    color: white;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #005f8a;
+}
+
+.inventory-display {
+    margin-top: 15px;
+}
+
+.inventory-display h2 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+#productList {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+}
+
+#productList li {
+    background-color: #f9f9f9;
+    border: 1px solid #eee;
+    margin-bottom: 5px;
+    padding: 8px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.9rem;
+    transition: transform 0.2s ease;
+}
+
+#productList li:hover {
+    transform: translateX(3px);
+}
+
+.remove-btn {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 4px 8px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.7rem;
+}
+
+.remove-btn:hover {
+    background-color: #c82333;
+}
+
+.message {
+    display: block;
+    margin-top: 8px;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+footer {
+    width: 100%;
+    padding: 5px 0;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+    line-height: 1;
+}
+
+footer p {
+    font-size: 0.8rem;
+    margin: 0;
+}

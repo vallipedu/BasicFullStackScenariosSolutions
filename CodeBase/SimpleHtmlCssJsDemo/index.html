@@ -1,0 +1,66 @@
+<!--
+    ******************************************************************
+    * Basic Math & Prime Checker                    *
+    * *
+    * Author: Hari Shankar                                           *
+    * Version: 1.0                                                   *
+    * Created: 4 AUG 2025                                            *
+    * Last Updated: 11 AUG 2025                                      *
+    * Description: This HTML page allows users to perform basic      *
+    * addition of two or three numbers and check if     *
+    * a given number is prime.                          *
+    * *
+    ******************************************************************
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Math & Prime Checker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Basic Math & Prime Checker</h1>
+    </header>
+
+    <main>
+        <section class="calculation-section">
+            <h2>Add Two Numbers</h2>
+            <input type="number" id="num1AddTwo" placeholder="Number 1">
+            <input type="number" id="num2AddTwo" placeholder="Number 2">
+            <button onclick="addTwoNumbers()">Add</button>
+            <div id="resultAddTwo" class="result-display"></div>
+        </section>
+
+        <hr>
+
+        <section class="calculation-section">
+            <h2>Add Three Numbers</h2>
+            <input type="number" id="num1AddThree" placeholder="Number 1">
+            <input type="number" id="num2AddThree" placeholder="Number 2">
+            <input type="number" id="num3AddThree" placeholder="Number 3">
+            <button onclick="addThreeNumbers()">Add</button>
+            <div id="resultAddThree" class="result-display"></div>
+        </section>
+
+        <hr>
+
+        <section class="calculation-section">
+            <h2>Prime Number Check</h2>
+            <input type="number" id="primeInput" placeholder="Enter a number">
+            <button onclick="checkPrimeNumber()">Check Prime</button>
+            <div id="resultPrime" class="result-display"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Simple Math App</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

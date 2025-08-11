@@ -1,0 +1,99 @@
+/*
+ ******************************************************************
+ *   CSS Stylesheet         *
+ *                                                                *
+ *     Author: Hari Shankar                                        *
+ *     Version: 1.0                                                *
+ *     Created: 4 AUG 2025                                        *
+ *     Last Updated: 11 AUG 2025                                   *
+ *     Description: This stylesheet defines the visual presentation*
+ *      and layout for the "Number Operations" web application.    *
+ *     It includes styling for the body, header, main content       **                                                                *
+ *     sections, input fields, buttons, and result displays.       *
+ *                                                                *
+ ******************************************************************
+ */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4ff;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 15px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.calculation-section {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+}
+
+h2 {
+    color: #006699;
+    margin-top: 0;
+}
+
+.input-group {
+    margin-bottom: 10px;
+}
+
+input, button {
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #006699;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+.result-display {
+    padding: 10px;
+    border: 1px dashed #999;
+    background-color: #f9f9f9;
+    margin-top: 10px;
+    min-height: 20px;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-color: #ccc;
+    margin: 20px 0;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 12px;
+}

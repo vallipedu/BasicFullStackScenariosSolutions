@@ -1,0 +1,129 @@
+/*
+ ******************************************************************
+ *                                                                *
+ *  CSS Stylesheet         *
+ *                                                                *
+ *     Author: Hari Shankar                                        *
+ *     Version: 1.0                                                *
+ *     Created: 4 AUG 2025                                        *
+ *     Last Updated: 11 AUG 2025                                   *
+ *     Description: This stylesheet defines the layout, colors, and *
+ *                                                                *
+ *     styling for the Basic Math & Prime Checker application.    *
+ *                                                                *
+ *     It includes styles for the main layout, input fields,       *
+ *                                                                *
+ *     buttons, and result displays.                               *
+ *                                                                *
+ ******************************************************************
+ */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+header {
+    background-color: #4CAF50; /* Green header */
+    color: white;
+    padding: 15px 0;
+}
+
+h1 {
+    margin: 0;
+    font-size: 1.8em;
+}
+
+main {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+.calculation-section {
+    margin-bottom: 25px;
+    padding: 15px;
+    border: 1px solid #eee;
+    background-color: #fdfdfd;
+    border-radius: 6px;
+}
+
+h2 {
+    color: #333;
+    font-size: 1.4em;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+input[type="number"] {
+    padding: 8px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+    width: calc(30% - 12px); /* Adjust width to fit */
+    box-sizing: border-box; /* Include padding and border in width */
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #008CBA; /* Blue button */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #007bb5;
+}
+
+.result-display {
+    padding: 10px;
+    margin-top: 15px;
+    border: 1px dashed #999;
+    background-color: #f9f9f9;
+    min-height: 20px;
+    display: flex; /* Use flex to center text */
+    align-items: center;
+    justify-content: center;
+    color: #333;
+    font-weight: bold;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 30px 0;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    margin-top: 20px;
+    font-size: 0.8em;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Basic responsiveness for smaller screens */
+@media (max-width: 480px) {
+    input[type="number"] {
+        width: calc(100% - 12px); /* Full width on small screens */
+        margin-bottom: 10px;
+    }
+    button {
+        width: 100%;
+    }
+}
