@@ -35,9 +35,11 @@ The programs in this repository will set the foundation for your great start in 
 * **Develop problem-solving skills:** Learn to debug and fix code, a critical skill for any developer.
 * **Build a portfolio:** The projects you complete here can be the first pieces of your professional portfolio.
 
+*                                                                                                   
+
 The current IT industry outlook demands developers who are not just knowledgeable but also practical and innovative. This repository is your chance to become exactly that.
 
 **I strongly encourage every student to focus, practice diligently, and use these programs as a launchpad to become employable and successful.**
 
-Happy coding!
-````
+Happy coding!                           <br> <span style="align:center;">     <i><b>HARI BABU MUTCHAKALA</i></b> </span>
+````                                                     
