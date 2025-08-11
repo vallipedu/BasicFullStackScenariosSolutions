@@ -1,6 +1,6 @@
-<H1 align="center" style="color:red;">  NBKR Institue of Science and Technology.</H1>
+<H1 align="center" style="color:#ff0000;">  NBKR Institue of Science and Technology.</H1>
 <br>
-<h3> </h3>Full Stack -2 Lab expereiments  </h3>  <h4 style="green;🌲">II YEAR A SECTION CSE / AIML</h4>  
+<h3> Full Stack -2 Lab expereiments  </h3>  <h4 style="green;">II YEAR A SECTION CSE / AIML</h4>  
 <hr>
 # Real-Time Touch Programs
 
