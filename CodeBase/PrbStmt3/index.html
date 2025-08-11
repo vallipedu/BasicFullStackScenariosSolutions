@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dell Product Inventory Management</title>
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Dell Product Inventory System 💻</h1>
+        <p>Manage and check the stock status of Dell products. The inventory is displayed below by default.</p>
+
+        <!-- Check Availability Section -->
+        <div class="section check-availability-section">
+            <h2>Check Product Availability ✅</h2>
+            <div class="input-group">
+                <input type="text" id="productIdOrName" placeholder="Enter Product ID or Name">
+                <button id="checkAvailabilityBtn" class="button primary-button">
+                    Check Status
+                </button>
+            </div>
+            <div id="availabilityStatus" class="status-display">
+                <!-- Availability status will be displayed here -->
+            </div>
+        </div>
+
+        <hr class="separator">
+
+        <!-- Display Inventory Section -->
+        <div class="section display-inventory-section">
+            <h2>Current Inventory 📦</h2>
+            <!-- The inventory table will be displayed here by default, no button click needed -->
+            <div id="inventoryDisplay" class="inventory-table-container">
+                <!-- Product list will be rendered here by JavaScript -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Link to external JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>

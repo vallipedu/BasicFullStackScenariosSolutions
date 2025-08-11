@@ -1,0 +1,436 @@
+[
+  {
+    "productId": "XPS-13-9310",
+    "productName": "Dell XPS 13 Laptop",
+    "inventoryStatus": true,
+    "price": 99999.00,
+    "category": "Laptop"
+  },
+  {
+    "productId": "ULTRASHARP-27",
+    "productName": "Dell UltraSharp 27 Monitor",
+    "inventoryStatus": true,
+    "price": 45000.00,
+    "category": "Monitor"
+  },
+  {
+    "productId": "ALIENWARE-M15",
+    "productName": "Dell Alienware m15 R7 Gaming Laptop",
+    "inventoryStatus": false,
+    "price": 185000.00,
+    "category": "Laptop"
+  },
+  {
+    "productId": "PRO-KEYBOARD-KM7120W",
+    "productName": "Dell Premier Wireless Keyboard and Mouse KM7120W",
+    "inventoryStatus": true,
+    "price": 8500.00,
+    "category": "Accessory"
+  },
+  {
+    "productId": "INSPIRON-15-3000",
+    "productName": "Dell Inspiron 15 3000 Laptop",
+    "inventoryStatus": true,
+    "price": 52999.00,
+    "category": "Laptop"
+  },
+  {
+    "productId": "SE2422H",
+    "productName": "Dell 24 Monitor - SE2422H",
+    "inventoryStatus": true,
+    "price": 12500.00,
+    "category": "Monitor"
+  },
+  {
+    "productId": "PORTABLE-SSD-PB1000",
+    "productName": "Dell Portable SSD, 1TB PB1000",
+    "inventoryStatus": false,
+    "price": 15000.00,
+    "category": "Accessory"
+  },
+  {
+    "productId": "G15-5511",
+    "productName": "Dell G15 Gaming Laptop",
+    "inventoryStatus": true,
+    "price": 95000.00,
+    "category": "Laptop"
+  },
+  {
+    "productId": "S3221QS",
+    "productName": "Dell 32 Curved 4K UHD Monitor",
+    "inventoryStatus": true,
+    "price": 55000.00,
+    "category": "Monitor"
+  },
+  {
+    "productId": "THUNDERBOLT-DOCK-WD19S",
+    "productName": "Dell Thunderbolt Dock WD19S",
+    "inventoryStatus": true,
+    "price": 22000.00,
+    "category": "Accessory"
+  },
+  {
+    "productId": "VOSTRO-14-3400",
+    "productName": "Dell Vostro 14 3400 Laptop",
+    "inventoryStatus": true,
+    "price": 48000.00,
+    "category": "Laptop"
+  },
+  {
+    "productId": "C3422WE",
+    "productName": "Dell 34 Curved Video Conferencing Monitor",
+    "inventoryStatus": false,
+    "price": 70000.00,
+    "category": "Monitor"
+  },
+  {
+    "productId": "PREMIER-SLIM-MOUSE-MS700",
+    "productName": "Dell Premier Rechargeable Wireless Mouse MS700",
+    "inventoryStatus": true,
+    "price": 6000.00,
+    "category": "Accessory"
+  },
+  {
+    "productId": "XPS-17-9710",
+    "productName": "Dell XPS 17 Laptop",
+    "inventoryStatus": true,
+    "price": 220000.00,
+    "category": "Laptop"
+  },
+  {
+    "productId": "ULTRASHARP-38",
+    "productName": "Dell UltraSharp 38 Curved USB-C Hub Monitor",
+    "inventoryStatus": true,
+    "price": 95000.00,
+    "category": "Monitor"
+  },
+  {
+    "productId": "WEBCAM-WB7022",
+    "productName": "Dell UltraSharp Webcam WB7022",
+    "inventoryStatus": true,
+    "price": 12000.00,
+    "category": "Accessory"
+  },
+  {
+    "productId": "LATITUDE-7420",
+    "productName": "Dell Latitude 7420 Laptop",
+    "inventoryStatus": false,
+    "price": 110000.00,
+    "category": "Laptop"
+  },
+  {
+    "productId": "AW2521HF",
+    "productName": "Dell Alienware 25 Gaming Monitor",
+    "inventoryStatus": true,
+    "price": 30000.00,
+    "category": "Monitor"
+  },
+  {
+    "productId": "BACKPACK-PRO-15",
+    "productName": "Dell Pro Backpack 15 (PO1520P)",
+    "inventoryStatus": true,
+    "price": 5000.00,
+    "category": "Accessory"
+  },
+  {
+    "productId": "PRECISION-3561",
+    "productName": "Dell Precision 3561 Workstation",
+    "inventoryStatus": true,
+    "price": 150000.00,
+    "category": "Laptop"
+  },
+  {
+    "productId": "P2422H",
+    "productName": "Dell 24 USB-C Hub Monitor - P2422H",
+    "inventoryStatus": true,
+    "price": 18000.00,
+    "category": "Monitor"
+  },
+  {
+    "productId": "HEADSET-WL5022",
+    "productName": "Dell Pro Wireless Headset WL5022",
+    "inventoryStatus": false,
+    "price": 10000.00,
+    "category": "Accessory"
+  },
+  {
+    "productId": "CHROMEBOOK-11",
+    "productName": "Dell Chromebook 11",
+    "inventoryStatus": true,
+    "price": 25000.00,
+    "category": "Laptop"
+  },
+  {
+    "productId": "AW2721D",
+    "productName": "Dell Alienware 27 Gaming Monitor",
+    "inventoryStatus": true,
+    "price": 48000.00,
+    "category": "Monitor"
+  },
+  {
+    "productId": "DOCKING-STATION-D6000",
+    "productName": "Dell Universal Dock D6000",
+    "inventoryStatus": true,
+    "price": 18000.00,
+    "category": "Accessory"
+  },
+  {
+    "productId": "INSPIRON-16-5620",
+    "productName": "Dell Inspiron 16 Laptop",
+    "inventoryStatus": true,
+    "price": 75000.00,
+    "category": "Laptop"
+  },
+  {
+    "productId": "P2722H",
+    "productName": "Dell 27 USB-C Hub Monitor - P2722H",
+    "inventoryStatus": true,
+    "price": 25000.00,
+    "category": "Monitor"
+  },
+  {
+    "productId": "GAMING-MOUSE-AW610M",
+    "productName": "Dell Alienware RGB Gaming Mouse AW610M",
+    "inventoryStatus": true,
+    "price": 7000.00,
+    "category": "Accessory"
+  },
+  {
+    "productId": "VOSTRO-15-5510",
+    "productName": "Dell Vostro 15 5510 Laptop",
+    "inventoryStatus": true,
+    "price": 65000.00,
+    "category": "Laptop"
+  },
+  {
+    "productId": "S2721QS",
+    "productName": "Dell 27 4K UHD Monitor - S2721QS",
+    "inventoryStatus": false,
+    "price": 38000.00,
+    "category": "Monitor"
+  },
+  {
+    "productId": "USB-C-ADAPTER-DA310",
+    "productName": "Dell USB-C Mobile Adapter - DA310",
+    "inventoryStatus": true,
+    "price": 4000.00,
+    "category": "Accessory"
+  },
+  {
+    "productId": "XPS-13-2-IN-1",
+    "productName": "Dell XPS 13 2-in-1 Laptop",
+    "inventoryStatus": true,
+    "price": 120000.00,
+    "category": "Laptop"
+  },
+  {
+    "productId": "ULTRASHARP-49",
+    "productName": "Dell UltraSharp 49 Curved Dual QHD Monitor",
+    "inventoryStatus": true,
+    "price": 150000.00,
+    "category": "Monitor"
+  },
+  {
+    "productId": "PREMIER-CHAT-HEADSET",
+    "productName": "Dell Premier Collaboration Headset ML5022",
+    "inventoryStatus": true,
+    "price": 9000.00,
+    "category": "Accessory"
+  },
+  {
+    "productId": "LATITUDE-5530",
+    "productName": "Dell Latitude 5530 Laptop",
+    "inventoryStatus": true,
+    "price": 98000.00,
+    "category": "Laptop"
+  },
+  {
+    "productId": "AW3423DW",
+    "productName": "Dell Alienware 34 Curved QD-OLED Gaming Monitor",
+    "inventoryStatus": true,
+    "price": 120000.00,
+    "category": "Monitor"
+  },
+  {
+    "productId": "GAMING-KEYBOARD-AW510K",
+    "productName": "Dell Alienware Gaming Keyboard AW510K (Red)",
+    "inventoryStatus": true,
+    "price": 10000.00,
+    "category": "Accessory"
+  },
+  {
+    "productId": "PRECISION-5760",
+    "productName": "Dell Precision 5760 Mobile Workstation",
+    "inventoryStatus": false,
+    "price": 250000.00,
+    "category": "Laptop"
+  },
+  {
+    "productId": "S2522HG",
+    "productName": "Dell 25 Gaming Monitor - S2522HG",
+    "inventoryStatus": true,
+    "price": 28000.00,
+    "category": "Monitor"
+  },
+  {
+    "productId": "SOUNDBAR-SB521A",
+    "productName": "Dell Slim Soundbar - SB521A",
+    "inventoryStatus": true,
+    "price": 8000.00,
+    "category": "Accessory"
+  },
+  {
+    "productId": "OPTIPLEX-3000-SFF",
+    "productName": "Dell OptiPlex 3000 Small Form Factor Desktop",
+    "inventoryStatus": true,
+    "price": 60000.00,
+    "category": "Desktop"
+  },
+  {
+    "productId": "POWEREDGE-R450",
+    "productName": "Dell PowerEdge R450 Server",
+    "inventoryStatus": false,
+    "price": 300000.00,
+    "category": "Server"
+  },
+  {
+    "productId": "ULTRASHARP-24",
+    "productName": "Dell UltraSharp 24 USB-C Hub Monitor",
+    "inventoryStatus": true,
+    "price": 28000.00,
+    "category": "Monitor"
+  },
+  {
+    "productId": "PREMIER-MOUSE-WM527",
+    "productName": "Dell Premier Wireless Mouse WM527",
+    "inventoryStatus": true,
+    "price": 4500.00,
+    "category": "Accessory"
+  },
+  {
+    "productId": "INSPIRON-14-5410",
+    "productName": "Dell Inspiron 14 2-in-1 Laptop",
+    "inventoryStatus": true,
+    "price": 88000.00,
+    "category": "Laptop"
+  },
+  {
+    "productId": "P3421W",
+    "productName": "Dell 34 Curved USB-C Monitor - P3421W",
+    "inventoryStatus": true,
+    "price": 42000.00,
+    "category": "Monitor"
+  },
+  {
+    "productId": "USB-C-DOCK-WD22TB4",
+    "productName": "Dell Performance Dock - WD22TB4",
+    "inventoryStatus": true,
+    "price": 25000.00,
+    "category": "Accessory"
+  },
+  {
+    "productId": "GAMING-DESKTOP-AURORA",
+    "productName": "Dell Alienware Aurora R13 Gaming Desktop",
+    "inventoryStatus": true,
+    "price": 190000.00,
+    "category": "Desktop"
+  },
+  {
+    "productId": "POWEREDGE-T150",
+    "productName": "Dell PowerEdge T150 Tower Server",
+    "inventoryStatus": true,
+    "price": 120000.00,
+    "category": "Server"
+  },
+  {
+    "productId": "VOSTRO-3510",
+    "productName": "Dell Vostro 15 3510 Laptop",
+    "inventoryStatus": true,
+    "price": 50000.00,
+    "category": "Laptop"
+  },
+  {
+    "productId": "E2222HS",
+    "productName": "Dell 22 Monitor - E2222HS",
+    "inventoryStatus": true,
+    "price": 10000.00,
+    "category": "Monitor"
+  },
+  {
+    "productId": "PREMIER-BACKPACK-17",
+    "productName": "Dell Premier Backpack 17 (PO1720P)",
+    "inventoryStatus": false,
+    "price": 6000.00,
+    "category": "Accessory"
+  },
+  {
+    "productId": "XPS-8950",
+    "productName": "Dell XPS Desktop",
+    "inventoryStatus": true,
+    "price": 130000.00,
+    "category": "Desktop"
+  },
+  {
+    "productId": "LATITUDE-3420",
+    "productName": "Dell Latitude 3420 Laptop",
+    "inventoryStatus": true,
+    "price": 70000.00,
+    "category": "Laptop"
+  },
+  {
+    "productId": "AW3821DW",
+    "productName": "Dell Alienware 38 Curved Gaming Monitor",
+    "inventoryStatus": true,
+    "price": 105000.00,
+    "category": "Monitor"
+  },
+  {
+    "productId": "PREMIER-MOUSE-WM327",
+    "productName": "Dell Wireless Mouse WM327",
+    "inventoryStatus": true,
+    "price": 2500.00,
+    "category": "Accessory"
+  },
+  {
+    "productId": "INSPIRON-24-5000",
+    "productName": "Dell Inspiron 24 All-in-One",
+    "inventoryStatus": true,
+    "price": 78000.00,
+    "category": "Desktop"
+  },
+  {
+    "productId": "OPTIPLEX-7000-TOWER",
+    "productName": "Dell OptiPlex 7000 Tower Desktop",
+    "inventoryStatus": true,
+    "price": 85000.00,
+    "category": "Desktop"
+  },
+  {
+    "productId": "GAMING-MOUSE-AW320M",
+    "productName": "Dell Alienware Gaming Mouse AW320M",
+    "inventoryStatus": true,
+    "price": 5500.00,
+    "category": "Accessory"
+  },
+  {
+    "productId": "POWEREDGE-R650",
+    "productName": "Dell PowerEdge R650 Server",
+    "inventoryStatus": true,
+    "price": 350000.00,
+    "category": "Server"
+  },
+  {
+    "productId": "ULTRASHARP-25",
+    "productName": "Dell UltraSharp 25 USB-C Monitor",
+    "inventoryStatus": true,
+    "price": 32000.00,
+    "category": "Monitor"
+  },
+  {
+    "productId": "XPS-15-9520",
+    "productName": "Dell XPS 15 Laptop",
+    "inventoryStatus": true,
+    "price": 175000.00,
+    "category": "Laptop"
+  }
+]

@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eef7ff; /* Light blue background */
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15); /* Softer shadow */
+    text-align: center;
+    width: 100%;
+    max-width: 450px;
+    border: 1px solid #ccf; /* Subtle border */
+}
+
+h1 {
+    color: #0056b3; /* Darker blue heading */
+    margin-bottom: 15px;
+    font-size: 2.5em;
+    border-bottom: 2px solid #e0e0f0;
+    padding-bottom: 10px;
+}
+
+p {
+    margin-bottom: 25px;
+    line-height: 1.5;
+    color: #555;
+}
+
+.input-section {
+    margin-bottom: 30px;
+}
+
+label {
+    display: block;
+    font-size: 1.1em;
+    margin-bottom: 8px;
+    color: #004499;
+    font-weight: bold;
+}
+
+input[type="number"] {
+    width: calc(100% - 40px); /* Adjust for padding and borders */
+    padding: 12px 18px;
+    border: 2px solid #aaccff; /* Blue border */
+    border-radius: 8px;
+    font-size: 1.2em;
+    text-align: center;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    box-sizing: border-box;
+}
+
+input[type="number"]:focus {
+    outline: none;
+    border-color: #007bff; /* Brighter blue on focus */
+    box-shadow: 0 0 0 4px rgba(0, 123, 255, 0.25);
+}
+
+.results-section {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.result-box {
+    background-color: #f0f7ff; /* Lighter blue for result boxes */
+    padding: 15px 20px;
+    border-radius: 8px;
+    border: 1px solid #cceeff;
+    flex: 1; /* Distribute space equally */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.result-box .label {
+    font-size: 0.9em;
+    color: #004499;
+    margin-bottom: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.result-box .value {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #007bff; /* Primary result color */
+}
