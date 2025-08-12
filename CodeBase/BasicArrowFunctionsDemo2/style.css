@@ -1,0 +1,92 @@
+/* Basic reset and font */
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f4f8; /* Light blue-gray background */
+    display: flex;
+    align-items: flex-start; /* Align to start for better top spacing */
+    justify-content: center;
+    min-height: 100vh;
+    padding: 1rem; /* Added padding for smaller screens */
+    box-sizing: border-box; /* Ensures padding is included in total width */
+}
+
+/* Container for the main content */
+.container {
+    max-width: 900px; /* Slightly wider for the table */
+    width: 100%; /* Make container fill available width */
+    margin-top: 2rem; /* Add some top margin */
+    padding: 1.5rem; /* Increased padding */
+    background-color: #ffffff;
+    border-radius: 0.5rem; /* rounded-lg */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08); /* card shadow */
+}
+
+/* Page title styling */
+h1 {
+    font-size: 2.25rem; /* 4xl */
+    font-weight: 700; /* font-bold */
+    text-align: center;
+    color: #1d4ed8; /* blue-700 */
+    margin-bottom: 2rem; /* mb-8 */
+    border-radius: 0.375rem; /* rounded-md */
+    padding: 0.5rem; /* p-2 */
+    background-color: #dbeafe; /* blue-100 */
+}
+
+/* Styling for the product table */
+.product-table {
+    width: 100%;
+    border-collapse: collapse; /* Collapse borders between cells */
+    margin-top: 1rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    overflow: hidden; /* Ensures rounded corners apply to content */
+}
+
+.product-table th,
+.product-table td {
+    padding: 0.75rem; /* Padding inside cells */
+    text-align: left;
+    border-bottom: 1px solid #e2e8f0; /* Light border for rows */
+}
+
+.product-table th {
+    background-color: #3b82f6; /* blue-500 */
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.875rem;
+}
+
+.product-table tbody tr:nth-child(even) {
+    background-color: #f8fafc; /* light background for even rows */
+}
+
+.product-table tbody tr:hover {
+    background-color: #e0f2fe; /* Light blue on hover */
+}
+
+/* Specific text colors for prices */
+.original-price {
+    text-decoration: line-through;
+    color: #ef4444; /* red-500 */
+}
+
+.discounted-price {
+    font-weight: 700;
+    color: #10b981; /* green-700 */
+}
+
+/* Styling for the "No products found" message */
+.no-products-message {
+    text-align: center;
+    color: #4b5563; /* gray-600 */
+    margin-top: 2rem; /* mt-8 */
+}
+
+/* Utility class to hide elements */
+.hidden {
+    display: none;
+}

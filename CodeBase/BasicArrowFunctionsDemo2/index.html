@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Pharmacy</title>
+    <!-- Link to the separate CSS file -->
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>💊 Our Supplements</h1>
+
+        <table id="product-table" class="product-table">
+            <thead>
+                <tr>
+                    <th>Product Name</th>
+                    <th>Original Price</th>
+                    <th>Discounted Price</th>
+                    <th>Category</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Product rows will be injected here by JavaScript -->
+            </tbody>
+        </table>
+
+        <div id="no-products-message" class="no-products-message hidden">
+            No supplement products found.
+        </div>
+    </div>
+
+    <!-- Link to the separate JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
