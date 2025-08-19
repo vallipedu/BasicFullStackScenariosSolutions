@@ -1,77 +1,85 @@
-var dellProducts = [
-    "Dell XPS 13",
-    "Dell Inspiron 15",
-    "Dell Alienware m16",
-    "Dell G15 Gaming Laptop",
-    "Dell S2721D Monitor"
-];
+/*
+    File: script.js
+    Author: HariBabu Mutchakala
+    Version: 1.0
+    Date: August 5, 2025
+    Objective:
+    This file contains all the JavaScript logic for the Dell E-commerce Inventory
+    Management system. It manages the product catalog using a JavaScript array,
+    handles user interactions like checking availability, and dynamically updates
+    the web page to display the inventory status.
+*/
 
-var productList = document.getElementById('productList');
-var addProductBtn = document.getElementById('addProductBtn');
-var productNameInput = document.getElementById('productName');
-var checkAvailabilityBtn = document.getElementById('checkAvailabilityBtn');
-var checkNameInput = document.getElementById('checkName');
-var addProductMessage = document.getElementById('addProductMessage'); // New variable
-var availabilityMessage = document.getElementById('availabilityMessage');
+// A global array to store the list of Dell products. This serves as our backend data.
+var dellProducts = ["NBKRIST Dell Series 1234578","Dell XPS 13", "Dell Inspiron 15", "Dell Alienware m15 R7"];
 
-// Function to display the inventory
-function displayInventory() {
-    productList.innerHTML = '';
-    for (var i = 0; i < dellProducts.length; i++) {
-        var li = document.createElement('li');
-        li.textContent = dellProducts[i];
-        productList.appendChild(li);
+/**
+ * Updates the inventory list displayed on the web page.
+ * It clears the current list and repopulates it with the contents of the dellProducts array.
+ */
+function updateInventoryDisplay() {
+    var inventoryList = document.getElementById("inventory-list");
+    // Clear the existing list content to prevent duplicates
+    inventoryList.innerHTML = "";
+    
+    // Loop through the dellProducts array and create a new list item for each product
+    var i;
+    for (i = 0; i < dellProducts.length; i++) {
+        var listItem = document.createElement("li");
+        listItem.textContent = dellProducts[i];
+        inventoryList.appendChild(listItem);
     }
 }
 
-// Function to add a product
-function addProduct() {
-    var newProduct = productNameInput.value.trim();
-    if (newProduct && dellProducts.indexOf(newProduct) === -1) {
-        dellProducts.push(newProduct);
-        addProductMessage.textContent = '"' + newProduct + '" added successfully. ✅';
-        addProductMessage.style.color = '#28a745';
-        displayInventory();
-        productNameInput.value = '';
-    } else if (dellProducts.indexOf(newProduct) !== -1) {
-        addProductMessage.textContent = '"' + newProduct + '" already exists in the inventory. ❌';
-        addProductMessage.style.color = '#dc3545';
-    } else {
-        addProductMessage.textContent = 'Please enter a product name. ⚠️';
-        addProductMessage.style.color = '#ffc107';
-    }
-    availabilityMessage.textContent = ''; // Clear the other message
-}
-
-// Function to check product availability
+/**
+ * Checks the availability of a product based on the user's input.
+ * It handles empty input and displays a message below the button.
+ */
 function checkAvailability() {
-    var productToCheck = checkNameInput.value.trim();
-    if (productToCheck) {
-        var isAvailable = false;
-        for (var i = 0; i < dellProducts.length; i++) {
-            if (dellProducts[i].toLowerCase() === productToCheck.toLowerCase()) {
-                isAvailable = true;
-                break;
-            }
-        }
-        if (isAvailable) {
-            availabilityMessage.textContent = '"' + productToCheck + '" is in stock. ✅';
-            availabilityMessage.style.color = '#28a745';
-        } else {
-            availabilityMessage.textContent = '"' + productToCheck + '" is out of stock. ❌';
-            availabilityMessage.style.color = '#dc3545';
-        }
-    } else {
-        availabilityMessage.textContent = 'Please enter a product name to check. ⚠️';
-        availabilityMessage.style.color = '#ffc107';
+    // Get the input field and status message elements
+    var productNameInput = document.getElementById("product-name");
+    var productName = productNameInput.value.trim();
+    var statusMessage = document.getElementById("status-message");
+
+    // Check if the input is empty. If so, display an error message.
+    if (productName === "") {
+        statusMessage.textContent = "Please enter a product name to check. ❗";
+        statusMessage.className = "out-of-stock"; // Reusing this class for a red background
+        return; // Exit the function to prevent further execution
     }
-    checkNameInput.value = '';
-    addProductMessage.textContent = ''; // Clear the other message
+
+    var found = false;
+    var i;
+    // Loop through the product array to find a match
+    for (i = 0; i < dellProducts.length; i++) {
+        // Use toLowerCase() for a case-insensitive comparison
+        if (dellProducts[i].toLowerCase() === productName.toLowerCase()) {
+            found = true;
+            break; // Exit the loop once a match is found for efficiency
+        }
+    }
+
+    // Clear any previous status message class and content to reset the display
+    statusMessage.className = "";
+    statusMessage.textContent = "";
+
+    // Display the appropriate message based on the search result
+    if (found) {
+        statusMessage.textContent = productName + " is currently in stock. ✅";
+        statusMessage.className = "in-stock"; // Apply green background style
+    } else {
+        statusMessage.textContent = productName + " is out of stock. ❌";
+        statusMessage.className = "out-of-stock"; // Apply red background style
+    }
+    
+    // Clear the input field after the check
+    productNameInput.value = "";
 }
 
-// Event Listeners
-addProductBtn.addEventListener('click', addProduct);
-checkAvailabilityBtn.addEventListener('click', checkAvailability);
+// Add a click event listener to the "Check Availability" button
+// When the button is clicked, the checkAvailability function will be executed.
+document.getElementById("check-btn").addEventListener("click", checkAvailability);
 
-// Initial display of the inventory on page load
-displayInventory();
+// Call the updateInventoryDisplay function when the page first loads
+// This ensures the initial inventory is shown to the user immediately.
+window.onload = updateInventoryDisplay;

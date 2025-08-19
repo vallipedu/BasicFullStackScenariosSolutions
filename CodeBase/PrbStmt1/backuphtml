@@ -16,13 +16,16 @@
             <input type="text" id="product-name" placeholder="Enter product name">
         </div>
 
+        <button class="btn btn-success" id="add-btn">Add Product</button>
+        <button class="btn btn-danger" id="remove-btn">Remove Product</button>
         <button class="btn btn-primary" id="check-btn">Check Availability</button>
-        <div id="status-message"></div>
 
         <hr>
 
         <h2>Current Inventory</h2>
         <ul id="inventory-list"></ul>
+
+        <div id="status-message"></div>
     </div>
 
     <script src="script.js"></script>

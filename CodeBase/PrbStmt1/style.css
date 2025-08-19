@@ -1,133 +1,103 @@
+/*
+    File: style.css
+    Author: HariBabu Mutchakala
+    Version: 1.0
+    Date: August 5, 2025
+    Objective:
+    This file contains all the CSS rules to style the HTML elements, creating a clean
+    and user-friendly interface. It defines the layout, colors, fonts, and responsive
+    behavior for the inventory management system.
+*/
+
+/* General body styling for font and background */
 body {
-    font-family: Arial, sans-serif;
+    font-family: sans-serif;
+    margin: 20px;
     background-color: #f4f4f4;
-    color: #333;
-    margin: 0;
-    padding-top: 50px;
-    padding-bottom: 30px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    min-height: 100vh;
 }
 
-header {
-    background-color: #0076a3;
-    color: white;
-    width: 100%;
-    padding: 5px 0;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 10;
-    line-height: 1;
-}
-
-header h1 {
-    font-size: 1.2rem;
-    margin: 0;
-}
-
-main {
-    width: 90%;
-    max-width: 600px;
-    margin: 20px auto;
-    padding: 15px;
-    background-color: white;
+/* Container for the main content to center it and apply a box-shadow */
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    flex-grow: 1;
 }
 
-.controls {
-    display: flex;
-    flex-direction: column;
-    gap: 15px; /* Increased gap for better spacing */
+/* Styling for headings */
+h1, h2 {
+    color: #333;
+    text-align: center;
+}
+
+/* Styling for the input field group */
+.input-group {
     margin-bottom: 15px;
 }
 
-.input-group {
-    display: flex;
-    align-items: center;
-    gap: 8px;
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
 }
 
-input[type="text"] {
-    padding: 8px;
+.input-group input[type="text"] {
+    width: calc(100% - 22px);
+    padding: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
-    font-size: 0.9rem;
-    flex-grow: 1;
+    font-size: 16px;
 }
 
-button {
-    padding: 8px 12px;
+/* General button styling */
+.btn {
+    padding: 10px 15px;
     border: none;
     border-radius: 4px;
-    background-color: #0076a3;
-    color: white;
-    font-size: 0.9rem;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    font-size: 16px;
+    margin-right: 10px;
 }
 
-button:hover {
-    background-color: #005f8a;
+/* Specific color for the primary button */
+.btn-primary {
+    background-color: #007bff;
+    color: white;
 }
 
-.inventory-display {
-    margin-top: 15px;
-}
-
-.inventory-display h2 {
-    font-size: 1.2rem;
-    margin-bottom: 10px;
-}
-
-#productList {
+/* Styling for the inventory list container */
+#inventory-list {
     list-style-type: none;
     padding: 0;
-    text-align: left;
+    margin-top: 20px;
 }
 
-#productList li {
-    background-color: #f9f9f9;
-    border: 1px solid #eee;
+/* Styling for each item in the inventory list */
+#inventory-list li {
+    background: #e9ecef;
     margin-bottom: 5px;
-    padding: 8px;
+    padding: 10px;
     border-radius: 4px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 0.9rem;
-    transition: transform 0.2s ease;
 }
 
-#productList li:hover {
-    transform: translateX(3px);
+/* Styling for the status message div */
+#status-message {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 4px;
+    text-align: center;
 }
 
-.message {
-    display: block;
-    margin-top: 8px;
-    font-weight: bold;
-    font-size: 0.9rem;
+/* Specific styling for the 'in-stock' message */
+.in-stock {
+    background-color: #d4edda;
+    color: #155724;
 }
 
-footer {
-    width: 100%;
-    padding: 5px 0;
-    background-color: #333;
-    color: white;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    z-index: 10;
-    line-height: 1;
-}
-
-footer p {
-    font-size: 0.8rem;
-    margin: 0;
+/* Specific styling for the 'out-of-stock' or error message */
+.out-of-stock {
+    background-color: #f8d7da;
+    color: #721c24;
 }
