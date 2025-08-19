@@ -3,34 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dell Inventory Management</title>
+    <title>Dell Product Inventory Management</title>
+    <!-- Link to external CSS file -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="container">
+        <h1>Dell Product Inventory System 💻</h1>
+        <p>Manage and check the stock status of Dell products. The inventory is displayed below by default.</p>
 
-    <header>
-        <h1>Dell Product Inventory</h1>
-    </header>
-
-    <main>
-        <section class="controls">
+        <!-- Check Availability Section -->
+        <div class="section check-availability-section">
+            <h2>Check Product Availability ✅</h2>
             <div class="input-group">
-                <input type="text" id="productName" placeholder="Enter product name...">
-                <button id="addProductBtn">Add Product</button>
+                <input type="text" id="productIdOrName" placeholder="Enter Product ID or Name">
+                <button id="checkAvailabilityBtn" class="button primary-button">
+                    Check Status
+                </button>
             </div>
-            <span id="addProductMessage" class="message"></span>
-        </section>
+            <div id="availabilityStatus" class="status-display">
+                <!-- Availability status will be displayed here -->
+            </div>
+        </div>
 
-        <section class="inventory-display">
-            <h2>Current Inventory</h2>
-            <ul id="productList"></ul>
-        </section>
-    </main>
+        <hr class="separator">
 
-    <footer>
-        <p>&copy; 2025 Dell E-commerce</p>
-    </footer>
+        <!-- Display Inventory Section -->
+        <div class="section display-inventory-section">
+            <h2>Current Inventory 📦</h2>
+            <!-- The inventory table will be displayed here by default, no button click needed -->
+            <div id="inventoryDisplay" class="inventory-table-container">
+                <!-- Product list will be rendered here by JavaScript -->
+            </div>
+        </div>
+    </div>
 
+    <!-- Link to external JavaScript file -->
     <script src="script.js"></script>
 </body>
 </html>

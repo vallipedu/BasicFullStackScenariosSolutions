@@ -1,147 +1,196 @@
+/* Basic Reset & Font */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
     margin: 0;
-    padding-top: 50px;
-    padding-bottom: 30px;
+    padding: 5px; /* Minimum padding for the body */
+    font-family: Arial, sans-serif; /* Simple, common font */
+    background-color: #fcfcfc; /* Very light background */
+    color: #333; /* Standard text color */
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
+    justify-content: center;
+    align-items: flex-start;
     min-height: 100vh;
+    box-sizing: border-box;
 }
 
-header {
-    background-color: #0076a3;
-    color: white;
+.container {
+    background-color: #fff; /* White background */
+    padding: 10px; /* Reduced container padding */
+    border-radius: 5px; /* Slightly less rounded corners */
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.08); /* Minimal shadow */
     width: 100%;
-    padding: 5px 0;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 10;
-    line-height: 1;
+    max-width: 600px; /* Even narrower container */
+    box-sizing: border-box;
 }
 
-header h1 {
-    font-size: 1.2rem;
-    margin: 0;
+/* Headings */
+h1 {
+    font-size: 1.6em; /* Smaller header font size */
+    margin-bottom: 10px; /* Reduced header margin */
+    padding-bottom: 3px; /* Reduced header padding */
+    text-align: center;
+    color: #003366; /* Darker blue for clarity */
+    border-bottom: 1px solid #e0e0e0; /* Lighter separator */
 }
 
-main {
-    width: 90%;
-    max-width: 600px;
-    margin: 20px auto;
-    padding: 15px;
-    background-color: white;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    flex-grow: 1;
+h2 {
+    font-size: 1.1em; /* Smaller sub-header font size */
+    margin-bottom: 5px; /* Reduced sub-header margin */
+    color: #003366; /* Consistent header color */
 }
 
-.controls {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    margin-bottom: 15px;
+p {
+    color: #555; /* Neutral paragraph color */
+    margin-bottom: 10px; /* Reduced paragraph margin */
+    text-align: center;
+    font-size: 0.85em; /* Smaller paragraph font */
 }
 
+/* Sections Styling */
+.section {
+    padding: 8px; /* Reduced section padding */
+    background-color: #f7faff; /* Very subtle blue tint */
+    border-radius: 3px;
+    margin-bottom: 10px; /* Reduced margin between sections */
+    border: 1px solid #eef3f8; /* Very light border */
+}
+
+.check-availability-section {
+    background-color: #f7fff7; /* Very subtle green tint */
+    border: 1px solid #eef8ee;
+}
+
+
+/* Input Group and Buttons */
 .input-group {
     display: flex;
-    align-items: center;
-    gap: 8px;
+    flex-direction: column;
+    gap: 3px; /* Minimal gap */
+    margin-bottom: 8px; /* Reduced margin */
 }
 
-input[type="text"] {
-    padding: 8px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    font-size: 0.9rem;
+.input-group input[type="text"] {
     flex-grow: 1;
+    padding: 4px; /* Minimal padding */
+    border: 1px solid #bbb;
+    border-radius: 2px; /* Very small border-radius */
+    outline: none;
+    box-sizing: border-box;
+    font-size: 0.75em; /* Smaller input font */
 }
 
-button {
-    padding: 8px 12px;
-    border: none;
-    border-radius: 4px;
-    background-color: #0076a3;
-    color: white;
-    font-size: 0.9rem;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+.input-group input[type="text"]:focus {
+    border-color: #0055aa; /* Focus highlight */
 }
 
-button:hover {
-    background-color: #005f8a;
-}
-
-.inventory-display {
-    margin-top: 15px;
-}
-
-.inventory-display h2 {
-    font-size: 1.2rem;
-    margin-bottom: 10px;
-}
-
-#productList {
-    list-style-type: none;
-    padding: 0;
-    text-align: left;
-}
-
-#productList li {
-    background-color: #f9f9f9;
-    border: 1px solid #eee;
-    margin-bottom: 5px;
-    padding: 8px;
-    border-radius: 4px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 0.9rem;
-    transition: transform 0.2s ease;
-}
-
-#productList li:hover {
-    transform: translateX(3px);
-}
-
-.remove-btn {
-    background-color: #dc3545;
-    color: white;
-    border: none;
-    padding: 4px 8px;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 0.7rem;
-}
-
-.remove-btn:hover {
-    background-color: #c82333;
-}
-
-.message {
-    display: block;
-    margin-top: 8px;
+.button {
     font-weight: bold;
-    font-size: 0.9rem;
-}
-
-footer {
+    padding: 4px 8px; /* Minimal padding for buttons */
+    border-radius: 3px; /* Small border-radius */
+    cursor: pointer;
+    transition: background-color 0.2s ease;
     width: 100%;
-    padding: 5px 0;
-    background-color: #333;
-    color: white;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    z-index: 10;
-    line-height: 1;
+    border: none;
+    font-size: 0.75em; /* Smaller button font */
 }
 
-footer p {
-    font-size: 0.8rem;
-    margin: 0;
+.primary-button {
+    background-color: #1a7a2a; /* Darker green */
+    color: #fff;
+}
+
+.primary-button:hover {
+    background-color: #156021;
+}
+
+.secondary-button { /* No longer needed as button is removed from HTML */
+    display: none; /* Hide if still referenced */
+}
+
+
+/* Status Display */
+.status-display {
+    padding: 5px; /* Minimal padding */
+    background-color: #fbfbfb; /* Lighter background */
+    border: 1px solid #eee; /* Lighter border */
+    border-radius: 3px;
+    color: #333;
+    min-height: 20px; /* Minimal height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 0.75em; /* Smaller status message font */
+}
+
+/* Specific colors for status messages */
+.status-display .text-green-700 { color: #1a7a2a; font-weight: bold; }
+.status-display .text-green-800 { color: #156021; font-weight: bold; }
+.status-display .text-red-700 { color: #b32633; font-weight: bold; }
+.status-display .text-red-800 { color: #8c1e29; font-weight: bold; }
+.status-display .text-orange-600 { color: #b35900; font-weight: bold; }
+.status-display .font-semibold { font-weight: bold; }
+
+
+/* Table Styling */
+.inventory-table-container {
+    overflow-x: auto;
+    margin-top: 8px; /* Reduced margin from section above */
+}
+
+.inventory-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+    background-color: #fff;
+    border-radius: 3px;
+    overflow: hidden;
+    border: 1px solid #bbb; /* Clear, simple border around the table */
+}
+
+.inventory-table th,
+.inventory-table td {
+    padding: 5px 4px; /* Minimal padding for table cells */
+    border: 1px solid #eee; /* Light borders for all cells */
+    font-size: 0.7em; /* Smallest table text */
+}
+
+.inventory-table th {
+    background-color: #e5e5e5; /* Lighter header background */
+    font-weight: bold;
+    color: #555;
+    text-transform: uppercase;
+    font-size: 0.65em; /* Smallest header font */
+}
+
+/* Alternating row colors */
+.inventory-table .row-even {
+    background-color: #ffffff; /* White background for even rows */
+}
+
+.inventory-table .row-odd {
+    background-color: #f7f7f7; /* Very light gray for odd rows */
+}
+
+/* Status text inside table */
+.text-green-600 { color: #1a7a2a; }
+.text-red-600 { color: #b32633; }
+.font-medium { font-weight: normal; }
+
+/* Separator */
+.separator {
+    border: none;
+    border-top: 1px solid #eee;
+    margin-top: 8px; /* Reduced margin */
+    margin-bottom: 8px; /* Reduced margin */
+}
+
+/* Responsive adjustments for smaller screens */
+@media (min-width: 768px) {
+    .input-group {
+        flex-direction: row;
+    }
+
+    .button {
+        width: auto;
+    }
 }

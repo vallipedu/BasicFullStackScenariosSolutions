@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dell Inventory Management</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Dell E-commerce Inventory</h1>
+
+        <div class="input-group">
+            <label for="product-search-input">Search Product ID or Name:</label>
+            <input type="text" id="product-search-input" placeholder="e.g., DP001 or Dell XPS 13">
+        </div>
+
+        <button class="btn btn-primary" id="check-availability-btn">Check Availability</button>
+        <div id="status-message"></div>
+
+        <hr>
+
+        <h2>Current Inventory</h2>
+        <div class="table-container">
+            <table id="inventory-table">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Status</th>
+                        <th>Price</th>
+                        <th>Category</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

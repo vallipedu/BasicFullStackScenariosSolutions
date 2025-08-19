@@ -1,0 +1,352 @@
+[
+  {
+    "id": "DP001",
+    "name": "Dell XPS 13 Laptop",
+    "inStock": true,
+    "price": 1299.99,
+    "category": "Laptop"
+  },
+  {
+    "id": "DP002",
+    "name": "Dell Inspiron 15 Laptop",
+    "inStock": true,
+    "price": 799.00,
+    "category": "Laptop"
+  },
+  {
+    "id": "DP003",
+    "name": "Dell Alienware m15 R7 Gaming Laptop",
+    "inStock": false,
+    "price": 1899.99,
+    "category": "Gaming Laptop"
+  },
+  {
+    "id": "DP004",
+    "name": "Dell UltraSharp 27 Monitor",
+    "inStock": true,
+    "price": 499.50,
+    "category": "Monitor"
+  },
+  {
+    "id": "DP005",
+    "name": "Dell G5 Gaming Desktop",
+    "inStock": true,
+    "price": 1100.00,
+    "category": "Desktop"
+  },
+  {
+    "id": "DP006",
+    "name": "Dell KM717 Wireless Keyboard and Mouse",
+    "inStock": true,
+    "price": 79.99,
+    "category": "Accessory"
+  },
+  {
+    "id": "DP007",
+    "name": "Dell S2721QS 27-inch 4K Monitor",
+    "inStock": false,
+    "price": 350.00,
+    "category": "Monitor"
+  },
+  {
+    "id": "DP008",
+    "name": "Dell Latitude 7420 Laptop",
+    "inStock": true,
+    "price": 1500.00,
+    "category": "Laptop"
+  },
+  {
+    "id": "DP009",
+    "name": "Dell OptiPlex 3080 Micro Desktop",
+    "inStock": true,
+    "price": 650.00,
+    "category": "Desktop"
+  },
+  {
+    "id": "DP010",
+    "name": "Dell P2419H 24-inch Monitor",
+    "inStock": true,
+    "price": 210.00,
+    "category": "Monitor"
+  },
+  {
+    "id": "DP011",
+    "name": "Dell Precision 5560 Mobile Workstation",
+    "inStock": true,
+    "price": 2400.00,
+    "category": "Workstation"
+  },
+  {
+    "id": "DP012",
+    "name": "Dell XPS 15 Laptop",
+    "inStock": true,
+    "price": 1799.99,
+    "category": "Laptop"
+  },
+  {
+    "id": "DP013",
+    "name": "Dell Inspiron 14 2-in-1 Laptop",
+    "inStock": true,
+    "price": 850.00,
+    "category": "Laptop"
+  },
+  {
+    "id": "DP014",
+    "name": "Dell Alienware Aurora R13 Gaming Desktop",
+    "inStock": true,
+    "price": 2500.00,
+    "category": "Gaming Desktop"
+  },
+  {
+    "id": "DP015",
+    "name": "Dell C2422HE 24-inch Video Conferencing Monitor",
+    "inStock": false,
+    "price": 380.00,
+    "category": "Monitor"
+  },
+  {
+    "id": "DP016",
+    "name": "Dell Vostro 3510 Laptop",
+    "inStock": true,
+    "price": 600.00,
+    "category": "Laptop"
+  },
+  {
+    "id": "DP017",
+    "name": "Dell PowerEdge T350 Server",
+    "inStock": true,
+    "price": 3000.00,
+    "category": "Server"
+  },
+  {
+    "id": "DP018",
+    "name": "Dell SE2419H 24-inch Monitor",
+    "inStock": true,
+    "price": 150.00,
+    "category": "Monitor"
+  },
+  {
+    "id": "DP019",
+    "name": "Dell Ultrasharp U2520D 25-inch Monitor",
+    "inStock": true,
+    "price": 399.00,
+    "category": "Monitor"
+  },
+  {
+    "id": "DP020",
+    "name": "Dell Wireless Mouse WM126",
+    "inStock": true,
+    "price": 19.99,
+    "category": "Accessory"
+  },
+  {
+    "id": "DP021",
+    "name": "Dell XPS 17 Laptop",
+    "inStock": true,
+    "price": 2199.99,
+    "category": "Laptop"
+  },
+  {
+    "id": "DP022",
+    "name": "Dell Inspiron 16 Laptop",
+    "inStock": true,
+    "price": 950.00,
+    "category": "Laptop"
+  },
+  {
+    "id": "DP023",
+    "name": "Dell Alienware Aurora R15 Gaming Desktop",
+    "inStock": false,
+    "price": 3000.00,
+    "category": "Gaming Desktop"
+  },
+  {
+    "id": "DP024",
+    "name": "Dell 34 Curved USB-C Monitor | P3421W",
+    "inStock": true,
+    "price": 620.00,
+    "category": "Monitor"
+  },
+  {
+    "id": "DP025",
+    "name": "Dell Precision 7760 Mobile Workstation",
+    "inStock": true,
+    "price": 3500.00,
+    "category": "Workstation"
+  },
+  {
+    "id": "DP026",
+    "name": "Dell Pro Stereo Headset – UC150",
+    "inStock": true,
+    "price": 65.00,
+    "category": "Accessory"
+  },
+  {
+    "id": "DP027",
+    "name": "Dell S2722QC 27-inch USB-C Monitor",
+    "inStock": true,
+    "price": 399.00,
+    "category": "Monitor"
+  },
+  {
+    "id": "DP028",
+    "name": "Dell Latitude 5530 Laptop",
+    "inStock": true,
+    "price": 1400.00,
+    "category": "Laptop"
+  },
+  {
+    "id": "DP029",
+    "name": "Dell OptiPlex 7000 Small Form Factor Desktop",
+    "inStock": true,
+    "price": 900.00,
+    "category": "Desktop"
+  },
+  {
+    "id": "DP030",
+    "name": "Dell 24 Monitor | S2421HN",
+    "inStock": true,
+    "price": 180.00,
+    "category": "Monitor"
+  },
+  {
+    "id": "DP031",
+    "name": "Dell XPS Desktop",
+    "inStock": true,
+    "price": 1099.99,
+    "category": "Desktop"
+  },
+  {
+    "id": "DP032",
+    "name": "Dell Inspiron 13 2-in-1 Laptop",
+    "inStock": true,
+    "price": 750.00,
+    "category": "Laptop"
+  },
+  {
+    "id": "DP033",
+    "name": "Dell Alienware AW2521HFL 24.5-inch Gaming Monitor",
+    "inStock": true,
+    "price": 320.00,
+    "category": "Gaming Monitor"
+  },
+  {
+    "id": "DP034",
+    "name": "Dell Dock – WD19S",
+    "inStock": true,
+    "price": 250.00,
+    "category": "Accessory"
+  },
+  {
+    "id": "DP035",
+    "name": "Dell Vostro 15 3520 Laptop",
+    "inStock": true,
+    "price": 700.00,
+    "category": "Laptop"
+  },
+  {
+    "id": "DP036",
+    "name": "Dell C3422WE 34-inch Curved Video Conferencing Monitor",
+    "inStock": true,
+    "price": 750.00,
+    "category": "Monitor"
+  },
+  {
+    "id": "DP037",
+    "name": "Dell PowerEdge R750 Rack Server",
+    "inStock": false,
+    "price": 5000.00,
+    "category": "Server"
+  },
+  {
+    "id": "DP038",
+    "name": "Dell Pro Wireless Keyboard and Mouse – KM5221W",
+    "inStock": true,
+    "price": 59.99,
+    "category": "Accessory"
+  },
+  {
+    "id": "DP039",
+    "name": "Dell 27 Monitor | S2721HS",
+    "inStock": true,
+    "price": 240.00,
+    "category": "Monitor"
+  },
+  {
+    "id": "DP040",
+    "name": "Dell Ultrasharp U4021QW 40-inch Curved Monitor",
+    "inStock": true,
+    "price": 2000.00,
+    "category": "Monitor"
+  },
+  {
+    "id": "DP041",
+    "name": "Dell XPS 13 Plus Laptop",
+    "inStock": true,
+    "price": 1499.99,
+    "category": "Laptop"
+  },
+  {
+    "id": "DP042",
+    "name": "Dell Inspiron 27 All-in-One Desktop",
+    "inStock": true,
+    "price": 1300.00,
+    "category": "All-in-One"
+  },
+  {
+    "id": "DP043",
+    "name": "Dell Alienware AW3423DW 34-inch QD-OLED Gaming Monitor",
+    "inStock": false,
+    "price": 1200.00,
+    "category": "Gaming Monitor"
+  },
+  {
+    "id": "DP044",
+    "name": "Dell USB-C Mobile Adapter – DA310",
+    "inStock": true,
+    "price": 99.00,
+    "category": "Accessory"
+  },
+  {
+    "id": "DP045",
+    "name": "Dell Latitude 9430 2-in-1 Laptop",
+    "inStock": true,
+    "price": 2100.00,
+    "category": "Laptop"
+  },
+  {
+    "id": "DP046",
+    "name": "Dell Precision 3660 Tower Workstation",
+    "inStock": true,
+    "price": 1800.00,
+    "category": "Workstation"
+  },
+  {
+    "id": "DP047",
+    "name": "Dell Dual Charge Dock – HD22Q",
+    "inStock": true,
+    "price": 350.00,
+    "category": "Accessory"
+  },
+  {
+    "id": "DP048",
+    "name": "Dell Gaming Headset – AW510H",
+    "inStock": true,
+    "price": 89.99,
+    "category": "Gaming Accessory"
+  },
+  {
+    "id": "DP049",
+    "name": "Dell S3221QS 32-inch Curved 4K UHD Monitor",
+    "inStock": true,
+    "price": 450.00,
+    "category": "Monitor"
+  },
+  {
+    "id": "DP050",
+    "name": "Dell Premier Backpack 15 (PE1520P)",
+    "inStock": true,
+    "price": 69.99,
+    "category": "Accessory"
+  }
+]

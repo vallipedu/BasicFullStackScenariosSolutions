@@ -1,0 +1,63 @@
+<!-- 
+    File: index.html
+    Author: HariBabu Mutchakala
+    Version: 1.0
+    Date: August 7, 2025
+    Objective: 
+    This file provides the structural foundation for the Dell E-commerce Inventory Management
+    system. It defines the user interface layout, including the input field for
+    product ID/name, the check availability button, and the display areas for the
+    inventory table and temporary status messages. It links to the external CSS and
+    JavaScript files to provide styling and dynamic functionality.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dell Inventory Management</title>
+    <!-- Link to the external stylesheet to apply all the visual styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Dell E-commerce Inventory</h1>
+
+        <!-- Input group for the product search -->
+        <div class="input-group">
+            <label for="product-search-input">Search Product ID or Name:</label>
+            <input type="text" id="product-search-input" placeholder="e.g., DP001 or Dell XPS 13">
+        </div>
+
+        <!-- Button to trigger the check availability function in JavaScript -->
+        <button class="btn btn-primary" id="check-availability-btn">Check Availability</button>
+        <!-- A div to display temporary messages (in-stock, out-of-stock, or error) -->
+        <div id="status-message"></div>
+
+        <hr>
+
+        <h2>Current Inventory</h2>
+        <!-- Table to display the product inventory -->
+        <div class="table-container">
+            <table id="inventory-table">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Status</th>
+                        <th>Price</th>
+                        <th>Category</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Product data will be inserted here by JavaScript -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- Link to the external JavaScript file containing all the application logic -->
+    <script src="script.js"></script>
+</body>
+</html>
