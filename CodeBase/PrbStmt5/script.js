@@ -103,7 +103,7 @@ const checkAvailability = () => {
 
     // Validate if the input is empty
     if (searchTerm === '') {
-        displayTemporaryMessage('Please enter a Product ID or Name to check. ❗', 'out-of-stock');
+        displayTemporaryMessage('Please enter a Product ID or Name to check.', 'out-of-stock');
         return;
     }
 
@@ -120,12 +120,12 @@ const checkAvailability = () => {
         // Object destructuring here to get the inStock property
         const { name, inStock } = foundProduct;
         if (inStock) {
-            displayTemporaryMessage(`${name} (ID: ${foundProduct.id}) is currently IN STOCK. ✅`, 'in-stock');
+            displayTemporaryMessage(`${name} (ID: ${foundProduct.id}) is currently IN STOCK. `, 'in-stock');
         } else {
-            displayTemporaryMessage(`${name} (ID: ${foundProduct.id}) is currently OUT OF STOCK. ❌`, 'out-of-stock');
+            displayTemporaryMessage(`${name} (ID: ${foundProduct.id}) is currently OUT OF STOCK.`, 'out-of-stock');
         }
     } else {
-        displayTemporaryMessage(`"${searchTerm}" not found in inventory. 🔍`, 'out-of-stock');
+        displayTemporaryMessage(`"${searchTerm}" not found in inventory. `, 'out-of-stock');
     }
 
     productSearchInput.value = ''; // Clear the input field

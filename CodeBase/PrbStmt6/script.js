@@ -134,7 +134,7 @@ const checkAvailability = () => {
     if (foundProduct) {
         // Object destructuring here to get the inStock property
         const { name, inStock } = foundProduct;
-        const statusMessage = inStock ? 'IN STOCK. ✅' : 'OUT OF STOCK. ❌';
+        const statusMessage = inStock ? 'IN STOCK.' : 'OUT OF STOCK.';
         const messageType = inStock ? 'in-stock' : 'out-of-stock';
         
         // Using a template literal for the message
@@ -143,7 +143,7 @@ const checkAvailability = () => {
         // Call the Rest operator example function
         logProductsByIds('A product was checked:', foundProduct.id);
     } else {
-        displayTemporaryMessage(`"${searchTerm}" not found in inventory. 🔍`, 'out-of-stock');
+        displayTemporaryMessage(`"${searchTerm}" not found in inventory.`, 'out-of-stock');
     }
 
     productSearchInput.value = '';
